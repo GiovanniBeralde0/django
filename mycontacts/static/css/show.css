@@ -1,0 +1,163 @@
+html{
+	height: 100%;
+}
+body{
+	background-color: #fef7f8;
+}
+.name{
+	font-size: 50px;
+}
+.email{
+	color: #ffcfd8;
+}
+.grid {
+  		overflow: hidden;
+		padding: 2em 2em;
+		max-width: 76em;
+		margin: 0 auto;
+		}
+		.grid li {
+			
+			padding: 0 0.8em 1.3em ;
+		}
+		.grid li > div {
+		    border-bottom: 1.8px solid #ffa3c4;
+		    border-right: 1.4px solid #ffa3c4;
+		    border-left: 0.7px solid #ffa3c4;
+		    border-top: 0.6px solid #ffa3c4;
+			border-radius: 20px;
+      
+			background: #fef7f8;
+			padding: 7em 2em;
+			text-align: center;
+		}
+		.grid li a {
+			color: #ffa3c4;
+		}
+		
+		@media all and (min-width: 27em) {
+			.grid li {
+				width: 100%;
+				float: left;
+			}
+		}
+		
+		@media all and (min-width: 40em) {
+			.grid li {
+				width: 50%;
+			}
+			.grid li.wide {
+				width: 100%;
+			}
+		}
+		@media all and (min-width: 60em) {
+			.grid li {
+				width: 33%;
+			}
+			.grid li.wide {
+				width: 100%;
+			}
+		}
+.container-show{
+	padding-top: 10%;
+	padding-bottom: 7%;
+}
+
+.js-global-header-scrolling {
+ top: -4em; /* Height of the header */
+}
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+}
+
+.footer {
+  color:white;
+  text-align: center;
+  padding: 15px;
+  
+  width: 100%; 
+  height: 50px;
+  background-color: #ffb9d3;
+  
+  
+  position: absolute; /*keeps the footer at the bottom*/
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.header {
+  color:white;
+  background-color: #ffb9d3;
+  width: 100%;
+  position:fixed;
+  text-align: center;
+  transition: top .2s ease-in;
+}
+
+.header a {
+	text-decoration:none;
+	display:block;
+    color:white;
+	margin-right: 12px;
+	padding: 10px 25px;
+}
+
+.header a:hover {
+	text-decoration:none;
+    color:white;
+    background-color: #ffb9d3;
+    display:block;
+    padding: 15px 25px;
+}
+
+.header h2 a {
+	text-decoration:none;
+    color:white;
+	padding: 0px 0px;
+}
+
+.header h2 a:hover {
+	text-decoration:none;
+    color:white;
+    background-color: #ffb9d3;
+    padding: 0px 0px
+}
+
+
+
+
+
+
+#btn_editar{
+
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffb9d3;
+    text-decoration: none;
+	margin-top: 10px;
+}
+
+#btn_excluir{
+
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffb9d3;
+    text-decoration: none;
+
+}

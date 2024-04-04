@@ -1,0 +1,18 @@
+{% extends 'mycontacts/background.html' %}
+{% load static %}
+
+{% block content %}
+
+<div id="qd_principal">
+    <div id="pos_principal">
+
+        <div class="itens"><p class="txt">{{contact.name}}</p></div>
+        <div class="itens"><p class="txt">{{contact.relation}}</p></div>
+        <div class="itens"><p class="txt">{{contact.phone}}</p></div>
+        <div class="itens"><p class="txt">{{contact.email}}</p></div>
+
+    </div>
+    
+</div>
+
+{% endblock%}
