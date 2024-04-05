@@ -16,7 +16,7 @@
 
 #pos_principal{
 
-    border: 2px solid #ffbfcb;
+    border: 2px solid #85ceda;
     border-radius: 20px;
     background-color: none;
     width: 500px;
@@ -32,7 +32,7 @@
 
     border: 2px solid;
     border-radius: 10px;
-    border-color: #ffbfcb;
+    border-color: #85ceda;
     height: 30px;
     width: 400px;
     background-color: none;
@@ -40,7 +40,7 @@
     padding-left: 20px;
     display: flex;
     align-items: center;
-    color: #c36c8e;
+    color: #85ceda;
 
 }
 
@@ -49,7 +49,7 @@
     padding-left: 20px;
     display: flex;
     align-items: center;
-    color: #c36c8e;
+    color: #85ceda;
 }
 .dv{
 
@@ -66,7 +66,7 @@
     font-size: 1rem;
     position: relative;
     overflow: hidden;
-    background-color: #ffb9d3;
+    background-color: #85ceda;
     text-decoration: none;
     margin-top: 10px;
     border: none;
